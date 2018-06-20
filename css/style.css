@@ -32,6 +32,9 @@ p {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+a {
+  color: #fafafa;
+}
 .main-btn {
   display: inline-block;
   background-color: #87e100;
