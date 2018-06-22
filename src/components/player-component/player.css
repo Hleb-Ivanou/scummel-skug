@@ -1,0 +1,84 @@
+@keyframes breathing-move {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes breathing-scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.character-player {
+  width: 95px;
+  height: 100px;
+  position: relative;
+  top: 68%;
+  left: 21%;
+  transform: scale(1.5);
+}
+.character-player-head {
+  position: absolute;
+  top: -6px;
+  left: 0;
+  width: 70px;
+  height: 60px;
+  background: url('./character-sprite.png') -345px -0px;
+  animation: breathing-move 5s ease-out infinite normal;
+}
+.character-player-body {
+  position: absolute;
+  top: 33px;
+  left: 20px;
+  width: 31px;
+  height: 40px;
+  background: url('./character-sprite.png') -366px -67px;
+  animation: breathing-scale 5s ease-out infinite normal;
+}
+.character-player-right-hand {
+  position: absolute;
+  top: 18px;
+  left: 33px;
+  width: 62px;
+  height: 55px;
+  background: url('./character-sprite.png') -381px -114px;
+  animation: breathing-move 5s ease-out infinite normal;
+}
+.character-player-left-hand {
+  position: absolute;
+  top: 43px;
+  left: 2px;
+  width: 32px;
+  height: 35px;
+  background: url('./character-sprite.png') -347px -174px;
+  animation: breathing-move 5s ease-out infinite normal;
+}
+.character-player-left-leg {
+  position: absolute;
+  top: 68px;
+  left: 18px;
+  width: 20px;
+  height: 28px;
+  background: url('./character-sprite.png') -365px -225px;
+}
+.character-player-right-leg {
+  position: absolute;
+  top: 67px;
+  left: 34px;
+  width: 25px;
+  height: 28px;
+  background: url('./character-sprite.png') -380px -265px;
+}

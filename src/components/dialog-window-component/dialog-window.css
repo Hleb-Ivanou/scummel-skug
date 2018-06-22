@@ -1,0 +1,14 @@
+.dialog-window {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3rem;
+  background-image: url('./dialog-window-bg.jpg');
+  border: 5px solid rgba(86, 86, 86, 0.8);
+  box-shadow: 0 0 5px #fff;
+  padding: 20px 30px;
+  border-radius: 4px;
+  color: #fafafa;
+}

@@ -1,0 +1,15 @@
+.popup {
+  width: 100px;
+  height: 100px;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ font-size: 1rem;
+ background-color: red;
+ border: 5px solid rgba(86, 86, 86, 0.8);
+ box-shadow: 0 0 5px #fff;
+ padding: 10px;
+ border-radius: 4px;
+ color: #fafafa;
+}

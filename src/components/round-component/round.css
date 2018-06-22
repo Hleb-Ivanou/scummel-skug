@@ -1,0 +1,46 @@
+.game-header {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fafafa;
+}
+.stats {
+  width: 35%;
+  padding: 20px 30px;
+}
+.progress-bar, .progress-bar-empty {
+  width: 100%;
+  border-radius: 4px;
+  height: 30px;
+  background: linear-gradient(#7c7979, #c4c4c4);
+}
+.progress-bar {
+  background: linear-gradient(#ce3131, #ff0000);
+  animation: move-bar 3s forwards;
+}
+.progress-bar-empty {
+  margin-top: 20px;
+}
+.right {
+  float: right;
+}
+.header-name {
+  font-size: 1.2rem;
+}
+.round-info {
+  width: 25%;
+  text-align: center;
+}
+.game-round {
+  font-size: 1.8rem;
+}
+.game-round-num {
+  font-weight: bold;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 0 5px;
+}

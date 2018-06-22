@@ -1,0 +1,50 @@
+@keyframes water-spell {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    background-position: -1400px;
+    opacity: 0;
+  }
+}
+@keyframes fire-spell {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    background-position: -1135px;
+    opacity: 0;
+  }
+}
+.water-spell-cont {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url('./water-spell.png');
+}
+.fire-spell-cont {
+  position: absolute;
+  width: 82px;
+  height: 100px;
+  background-image: url('./fire-spell.png');
+}
+.spell-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.spell-list li {
+  cursor: pointer;
+}
+.spell-list li:hover {
+  box-shadow: 0 0 15px #fade6e;
+}
+.spell-list li img {
+  transform: scale(1.3);
+}
